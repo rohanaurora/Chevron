@@ -16,8 +16,14 @@
     
     [self setTitle:@"Second View"];
     
-    UIBarButtonItem *buttonOnBar =[[UIBarButtonItem alloc] initWithTitle:@"To First" style:UIBarButtonItemStylePlain target:nil action:nil];
+    UIBarButtonItem *buttonOnBar =[[UIBarButtonItem alloc] initWithTitle:@"< Custom Title" style:UIBarButtonItemStylePlain target:self action:@selector(goBack:)];
     self.navigationItem.leftBarButtonItem = buttonOnBar;
+    
+}
+
+-(void) goBack:(UIBarButtonItem *)sender{
+   
+[[self navigationController] popViewControllerAnimated:YES];
     
 }
 
