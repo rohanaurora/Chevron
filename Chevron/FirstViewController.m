@@ -11,20 +11,17 @@
 
 @implementation FirstViewController
 
--(void) viewDidLoad {
-    
-    [super viewDidLoad];
-    
-    [self setTitle:@"First View"];
-    
-}
-
 
 -(void) viewWillAppear:(BOOL)animated {
     
+    [super viewWillAppear:animated];
+    
+    [self.navigationItem setTitle:@"First View"];
+    self.view.backgroundColor = [UIColor redColor];
+    
     // Custom image
     UIEdgeInsets edgeInsets = UIEdgeInsetsMake(0, 0, 0, 0);
-    UIImage *backButtonImage = [[UIImage imageNamed:@"chevron"] resizableImageWithCapInsets:edgeInsets];
+    UIImage *backButtonImage = [[UIImage imageNamed:@"nextImage"] resizableImageWithCapInsets:edgeInsets];
     
     UIButton *backButton = [UIButton buttonWithType:UIButtonTypeCustom];
     [backButton setFrame:CGRectMake(0, 0, 100, 30)];

@@ -26,7 +26,7 @@
     self.window.rootViewController = nav;
     
     UINavigationBar *navigationBar = nav.navigationBar;
-    navigationBar.barTintColor = [UIColor lightGrayColor];
+    navigationBar.barTintColor = [UIColor grayColor];
     navigationBar.barStyle = UIBarStyleBlackOpaque;
     
     self.window.backgroundColor = [UIColor whiteColor];

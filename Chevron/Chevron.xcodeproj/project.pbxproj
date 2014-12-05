@@ -15,6 +15,7 @@
 		BD14C6FF1A2FF4EF00981615 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD14C6FE1A2FF4EF00981615 /* FirstViewController.m */; };
 		BD14C7021A2FF4FA00981615 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD14C7011A2FF4FA00981615 /* SecondViewController.m */; };
 		BD14C7041A2FF69300981615 /* chevron.png in Resources */ = {isa = PBXBuildFile; fileRef = BD14C7031A2FF69300981615 /* chevron.png */; };
+		BD991D7C1A318682005C6A01 /* nextImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BD991D7B1A318682005C6A01 /* nextImage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		BD14C7001A2FF4FA00981615 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondViewController.h; path = ../SecondViewController.h; sourceTree = "<group>"; };
 		BD14C7011A2FF4FA00981615 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondViewController.m; path = ../SecondViewController.m; sourceTree = "<group>"; };
 		BD14C7031A2FF69300981615 /* chevron.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chevron.png; path = ../chevron.png; sourceTree = "<group>"; };
+		BD991D7B1A318682005C6A01 /* nextImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nextImage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		BD14C6D71A2FF3E400981615 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BD991D7B1A318682005C6A01 /* nextImage.png */,
 				BD14C7031A2FF69300981615 /* chevron.png */,
 				BD14C6DE1A2FF3E400981615 /* Images.xcassets */,
 				BD14C6E01A2FF3E400981615 /* LaunchScreen.xib */,
@@ -206,6 +209,7 @@
 			files = (
 				BD14C7041A2FF69300981615 /* chevron.png in Resources */,
 				BD14C6E21A2FF3E400981615 /* LaunchScreen.xib in Resources */,
+				BD991D7C1A318682005C6A01 /* nextImage.png in Resources */,
 				BD14C6DF1A2FF3E400981615 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
