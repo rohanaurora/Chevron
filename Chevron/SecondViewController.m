@@ -14,18 +14,11 @@
     
     [super viewDidLoad];
     
-    [self.navigationItem setTitle:@"Second View"];
-    self.navigationController.navigationBar.backItem.title = @"Back";
     [self.navigationController.navigationBar setTintColor:[UIColor whiteColor]];
     [self.view setBackgroundColor:[UIColor yellowColor]];
 
+    [self.navigationItem setTitle:@"Second View"];
+    self.navigationController.navigationBar.backItem.title = @"Custom Title";
 }
-
--(void) goBack:(UIBarButtonItem *)sender{
-   
-[self.navigationController popViewControllerAnimated:YES];
-
-}
-
 
 @end
