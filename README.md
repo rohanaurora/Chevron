@@ -1,7 +1,7 @@
 Chevron
 =======
 
-A simple project to add a custom title and image for back button for `UINavigationController`. The back button includes system-provided chevron to transition back to the previous view controller.
+A simple project to add a custom title and image for back button using `UINavigationController`. The back button includes system-provided chevron to transition back to the previous view controller.
 
 
 - [Instructions](#instructions)
